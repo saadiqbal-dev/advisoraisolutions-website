@@ -1,4 +1,5 @@
 import { CalendlyButton } from "@/components/calendly";
+import { MediaRail } from "@/components/media-rail";
 import { ContactForm } from "@/components/contact-form";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { pageMeta } from "@/lib/seo";
@@ -23,6 +24,7 @@ export default function ContactPage() {
       <Breadcrumbs items={[{ name: "Home", path: "/" }, { name: "Contact", path: "/contact" }]} />
       <p className="eyebrow">Contact</p>
       <h1 className="mt-3 max-w-3xl font-serif text-4xl md:text-6xl">Start with a straight conversation.</h1>
+      <MediaRail />
       <p className="mt-5 max-w-2xl text-lg text-muted">
         30 minutes. No commitment. We look at your AI visibility and sketch what a 90-day growth system would be for
         your firm.

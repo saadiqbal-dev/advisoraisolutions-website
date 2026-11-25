@@ -1,4 +1,5 @@
 import { Breadcrumbs } from "@/components/breadcrumbs";
+import { MediaRail } from "@/components/media-rail";
 import { JsonLd } from "@/components/json-ld";
 import { principles, timeline } from "@/lib/copy";
 import { personJsonLd } from "@/lib/schema";
@@ -21,6 +22,7 @@ export default function AboutPage() {
       <h1 className="mt-3 max-w-3xl font-serif text-4xl leading-tight md:text-6xl">
         Operator-built AI systems for the firms that actually build things.
       </h1>
+      <MediaRail />
       <div className="mt-10 grid gap-10 lg:grid-cols-12">
         <div className="lg:col-span-7">
           <p className="text-lg text-muted">

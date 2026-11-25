@@ -24,14 +24,14 @@ export function SiteHeader() {
   }, [open]);
 
   return (
-    <header className="sticky top-0 z-40 border-b border-line bg-background/95 backdrop-blur-md">
+    <header className="sticky top-0 z-40 border-b border-white/10 bg-[#070b16]/80 backdrop-blur-md">
       <a href="#main" className="skip-link">
         Skip to content
       </a>
       <div className="relative mx-auto flex w-full max-w-[1200px] items-center justify-between gap-4 px-5 py-3.5 md:px-8">
         <a href="/" className="flex items-center gap-2.5 text-gold">
           <Logo className="size-8 shrink-0" />
-          <span className="font-serif text-[1.05rem] leading-none tracking-tight text-foreground">
+          <span className="text-[1.05rem] font-semibold leading-none tracking-tight text-foreground">
             Advisor AI Solutions
           </span>
         </a>

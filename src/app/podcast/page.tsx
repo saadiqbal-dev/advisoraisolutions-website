@@ -1,5 +1,6 @@
 import { Suspense } from "react";
 import { Breadcrumbs } from "@/components/breadcrumbs";
+import { MediaRail } from "@/components/media-rail";
 import { JsonLd } from "@/components/json-ld";
 import { PodcastBrowser } from "@/components/podcast-browser";
 import { getEpisodes } from "@/lib/content";
@@ -23,6 +24,7 @@ export default function PodcastPage() {
       <Breadcrumbs items={[{ name: "Home", path: "/" }, { name: "Podcast", path: "/podcast" }]} />
       <p className="eyebrow">Advisor AI Solutions Podcast</p>
       <h1 className="mt-3 max-w-3xl font-serif text-4xl md:text-6xl">In conversation with people who build.</h1>
+      <MediaRail />
       <p className="mt-6 max-w-2xl text-lg text-muted">
         {published.length} episodes with named guests. Everyone listed here appeared as a podcast guest. That is not a
         client list.

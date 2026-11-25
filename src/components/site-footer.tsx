@@ -8,10 +8,10 @@ export function SiteFooter() {
         <div className="md:col-span-5">
           <a href="/" className="inline-flex items-center gap-2.5 text-gold">
             <Logo className="size-8" />
-            <span className="font-serif text-lg text-foreground">Advisor AI Solutions</span>
+            <span className="text-lg font-semibold tracking-tight text-foreground">Advisor AI Solutions</span>
           </a>
           <p className="mt-4 max-w-sm text-sm leading-relaxed text-muted">{site.description}</p>
-          <p className="mt-6 font-serif text-lg italic text-gold/90">“{site.tagline}”</p>
+          <p className="mt-6 text-lg font-medium tracking-tight text-gold">“{site.tagline}”</p>
         </div>
         <div className="md:col-span-3">
           <p className="eyebrow">Navigate</p>

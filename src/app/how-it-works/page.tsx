@@ -1,4 +1,5 @@
 import { Breadcrumbs } from "@/components/breadcrumbs";
+import { MediaRail } from "@/components/media-rail";
 import { steps } from "@/lib/copy";
 import { pageMeta } from "@/lib/seo";
 import { site } from "@/lib/site";
@@ -16,6 +17,7 @@ export default function HowItWorksPage() {
       <Breadcrumbs items={[{ name: "Home", path: "/" }, { name: "How it works", path: "/how-it-works" }]} />
       <p className="eyebrow">Process</p>
       <h1 className="mt-3 max-w-3xl font-serif text-4xl md:text-6xl">A structured engagement. No theatre.</h1>
+      <MediaRail />
       <p className="mt-6 max-w-2xl text-lg text-muted">
         A model built around how AEC companies win and deliver projects. Durations are not published yet.
       </p>

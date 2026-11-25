@@ -1,4 +1,5 @@
 import { Breadcrumbs } from "@/components/breadcrumbs";
+import { MediaRail } from "@/components/media-rail";
 import { FaqList } from "@/components/faq-list";
 import { JsonLd } from "@/components/json-ld";
 import { engagements, pillars, stack } from "@/lib/copy";
@@ -25,6 +26,7 @@ export default function ServicesPage() {
       <h1 className="mt-3 max-w-3xl font-serif text-4xl leading-tight md:text-6xl">
         More qualified opportunities. Less manual work. A pipeline that runs without you.
       </h1>
+      <MediaRail />
       <p className="mt-6 max-w-2xl text-lg text-muted">
         Four pillars, named once and mapped to the work they actually contain. Built only for architecture, engineering,
         construction, and green building firms.
