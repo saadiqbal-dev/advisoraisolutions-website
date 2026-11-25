@@ -57,7 +57,7 @@ export function PodcastBrowser({ episodes }: { episodes: Episode[] }) {
       <ul className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {visible.map((episode) => (
           <li key={episode.slug}>
-            <a href={`/podcast/${episode.slug}`} className="group block h-full border border-line bg-card">
+            <a href={`/podcast/${episode.slug}`} className="group block h-full overflow-hidden rounded-3xl border border-line bg-card transition-colors hover:border-[#C5A55A]">
               <div className="relative aspect-video bg-surface">
                 {episode.thumb ? (
                   <Image src={episode.thumb} alt="" fill sizes="(max-width: 768px) 100vw, 360px" className="object-cover" />

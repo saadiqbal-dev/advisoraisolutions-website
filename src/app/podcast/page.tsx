@@ -24,7 +24,7 @@ export default function PodcastPage() {
       <Breadcrumbs items={[{ name: "Home", path: "/" }, { name: "Podcast", path: "/podcast" }]} />
       <p className="eyebrow">Advisor AI Solutions Podcast</p>
       <h1 className="mt-3 max-w-3xl font-serif text-4xl md:text-6xl">In conversation with people who build.</h1>
-      <MediaRail />
+      <MediaRail set="show" />
       <p className="mt-6 max-w-2xl text-lg text-muted">
         {published.length} episodes with named guests. Everyone listed here appeared as a podcast guest. That is not a
         client list.

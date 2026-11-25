@@ -45,7 +45,7 @@ export function renderOg({ eyebrow, title }: { eyebrow: string; title: string })
               fontSize: 18,
               letterSpacing: 4,
               textTransform: "uppercase",
-              color: "#00D4C8",
+              color: "#C5A55A",
               fontFamily: "sans-serif",
             }}
           >

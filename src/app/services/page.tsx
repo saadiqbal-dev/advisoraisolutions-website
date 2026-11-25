@@ -32,12 +32,13 @@ export default function ServicesPage() {
         construction, and green building firms.
       </p>
 
-      <div className="mt-16 space-y-16">
+      <div className="mt-16 space-y-4">
         {pillars.map((pillar) => (
-          <article key={pillar.number} className="grid gap-6 border-t border-line pt-10 md:grid-cols-12">
+          <article key={pillar.number} className="grid gap-6 rounded-3xl border border-line bg-card p-6 md:grid-cols-12 md:p-8">
             <div className="md:col-span-4">
-              <p className="font-mono text-sm text-gold">{pillar.number} — {pillar.name}</p>
-              <h2 className="mt-3 font-serif text-3xl md:text-4xl">{pillar.title}</h2>
+              <p className="inline-flex size-12 items-center justify-center rounded-2xl bg-[#C5A55A] font-mono text-sm font-bold text-[#060D1A]">{pillar.number}</p>
+              <p className="mt-4 font-mono text-xs uppercase tracking-[0.14em] text-gold">{pillar.name}</p>
+              <h2 className="mt-2 font-serif text-3xl md:text-4xl">{pillar.title}</h2>
             </div>
             <div className="md:col-span-8">
               <p className="text-muted">{pillar.body}</p>
@@ -58,7 +59,7 @@ export default function ServicesPage() {
         <h2 className="mt-3 font-serif text-3xl">Tools, named plainly.</h2>
         <ul className="mt-6 flex flex-wrap gap-2">
           {stack.map((tool) => (
-            <li key={tool} className="border border-line px-3 py-2 font-mono text-xs uppercase tracking-[0.14em] text-muted">
+            <li key={tool} className="rounded-full border border-line px-3 py-2 font-mono text-xs uppercase tracking-[0.14em] text-muted transition-colors hover:border-[#C5A55A] hover:text-foreground">
               {tool}
             </li>
           ))}
@@ -69,17 +70,17 @@ export default function ServicesPage() {
         <p className="eyebrow">Engagement options</p>
         <div className="mt-8 grid gap-4 lg:grid-cols-3">
           {engagements.map((offer) => (
-            <article key={offer.name} className={`border p-6 ${offer.popular ? "border-gold" : "border-line"}`}>
-              {offer.popular && <p className="eyebrow">Most popular</p>}
-              <h2 className="mt-2 font-serif text-3xl">{offer.name}</h2>
-              <p className="mt-2 font-mono text-sm uppercase tracking-[0.14em] text-gold">{offer.price}</p>
-              <p className="mt-4 text-sm text-muted">{offer.body}</p>
+            <article key={offer.name} className={`rounded-3xl border p-6 ${offer.popular ? "border-[#C5A55A] bg-[#C5A55A] text-[#060D1A]" : "border-line bg-card"}`}>
+              {offer.popular && <p className="font-mono text-xs uppercase tracking-[0.16em] text-[#060D1A]">Most popular</p>}
+              <h2 className={`mt-2 font-serif text-3xl ${offer.popular ? "text-[#060D1A]" : ""}`}>{offer.name}</h2>
+              <p className={`mt-2 font-mono text-sm uppercase tracking-[0.14em] ${offer.popular ? "text-[#060D1A]" : "text-gold"}`}>{offer.price}</p>
+              <p className={`mt-4 text-sm ${offer.popular ? "text-[#060D1A]/80" : "text-muted"}`}>{offer.body}</p>
               <ul className="mt-4 space-y-2 text-sm">
                 {offer.items.map((item) => (
                   <li key={item}>{item}</li>
                 ))}
               </ul>
-              <a href={offer.href} className="mt-6 inline-block text-sm text-gold">
+              <a href={offer.href} className={`mt-6 inline-block text-sm font-semibold ${offer.popular ? "text-[#060D1A] underline" : "text-gold"}`}>
                 {offer.cta}
               </a>
             </article>

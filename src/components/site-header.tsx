@@ -24,7 +24,7 @@ export function SiteHeader() {
   }, [open]);
 
   return (
-    <header className="sticky top-0 z-40 border-b border-white/10 bg-[#070b16]/80 backdrop-blur-md">
+    <header className="sticky top-0 z-40 border-b border-line bg-[#060d1a]/85 backdrop-blur-md">
       <a href="#main" className="skip-link">
         Skip to content
       </a>

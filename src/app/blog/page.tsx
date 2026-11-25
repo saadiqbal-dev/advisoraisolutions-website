@@ -1,4 +1,5 @@
 import { Breadcrumbs } from "@/components/breadcrumbs";
+import { MediaRail } from "@/components/media-rail";
 import { getPosts } from "@/lib/content";
 import { pageMeta } from "@/lib/seo";
 
@@ -15,13 +16,14 @@ export default function BlogPage() {
       <Breadcrumbs items={[{ name: "Home", path: "/" }, { name: "Blog", path: "/blog" }]} />
       <p className="eyebrow">Journal</p>
       <h1 className="mt-3 font-serif text-4xl md:text-6xl">From the work.</h1>
-      <p className="mt-5 max-w-2xl text-lg text-muted">
+      <MediaRail set="pipeline" />
+      <p className="mt-6 max-w-2xl text-lg text-muted">
         Articles are published only where the source text exists. Everything else is marked.
       </p>
       <ul className="mt-12 divide-y divide-line border-y border-line">
         {posts.map((post) => (
           <li key={post.slug}>
-            <a href={`/blog/${post.slug}`} className="grid gap-2 py-6 md:grid-cols-12 md:items-baseline">
+            <a href={`/blog/${post.slug}`} className="grid gap-2 rounded-2xl px-2 py-6 transition-colors hover:bg-card md:grid-cols-12 md:items-baseline">
               <span className="font-mono text-xs uppercase tracking-[0.14em] text-gold md:col-span-3">
                 {post.dateLabel}
               </span>

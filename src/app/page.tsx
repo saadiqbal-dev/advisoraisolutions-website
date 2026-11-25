@@ -19,12 +19,12 @@ export const metadata = {
 };
 
 const tones = [
-  "bg-[#FF4D8D] text-[#070B16]",
-  "bg-[#FFC53D] text-[#070B16]",
-  "bg-[#241038] text-[#F4F1EA]",
-  "bg-[#12343A] text-[#F4F1EA]",
-  "bg-[#FFC53D] text-[#070B16]",
-  "bg-[#FF4D8D] text-[#070B16]",
+  "border border-line bg-card text-foreground",
+  "bg-[#C5A55A] text-[#060D1A]",
+  "border border-line bg-card text-foreground",
+  "bg-[#C5A55A] text-[#060D1A]",
+  "border border-line bg-card text-foreground",
+  "bg-[#C5A55A] text-[#060D1A]",
 ];
 
 function AnswerCard() {
@@ -41,32 +41,13 @@ function AnswerCard() {
           <span>02 · Another cited firm</span>
           <span className="font-mono text-xs uppercase tracking-widest text-teal">Cited</span>
         </li>
-        <li className="rounded-2xl bg-[#FF4D8D] px-4 py-4 text-[#070B16]">
+        <li className="rounded-2xl bg-[#C5A55A] px-4 py-4 text-[#060D1A]">
           <p className="font-mono text-[0.68rem] uppercase tracking-[0.14em]">03</p>
           <p className="mt-1 text-2xl font-bold tracking-tight">Your firm?</p>
           <p className="text-sm">Not cited yet.</p>
         </li>
       </ol>
     </figure>
-  );
-}
-
-function CalendarCard() {
-  const days = ["M", "T", "W", "T", "F"];
-  return (
-    <div className="rounded-3xl bg-[#FFC53D] p-4 text-[#070B16]" aria-hidden="true">
-      <p className="font-mono text-[0.68rem] uppercase tracking-[0.14em]">This week</p>
-      <div className="mt-3 grid grid-cols-5 gap-2">
-        {days.map((day, index) => (
-          <div key={day + index} className="rounded-xl bg-[#070B16]/10 p-2 text-center">
-            <p className="font-mono text-[0.65rem]">{day}</p>
-            <p className={`mt-2 rounded-lg py-3 text-xs font-bold ${index < 3 ? "bg-[#070B16] text-[#FFC53D]" : "bg-white/40"}`}>
-              {index < 3 ? "Call" : "Open"}
-            </p>
-          </div>
-        ))}
-      </div>
-    </div>
   );
 }
 
@@ -110,39 +91,36 @@ export default function HomePage() {
           </div>
 
           <div className="relative z-10 mt-8 grid grid-cols-2 gap-3 lg:hidden">
-            <div className="tile tile-hover relative aspect-square bg-[#FF4D8D] p-1.5">
-              <Image src="/visuals/blueprint.webp" alt="" fill sizes="45vw" className="rounded-[0.9rem] object-cover" />
+            <div className="tile tile-hover relative aspect-[4/3] bg-[#C5A55A] p-1.5">
+              <Image src="/visuals/ai-search.webp" alt="Illustrative AI answer showing the firm is not cited yet" fill sizes="50vw" className="rounded-[0.9rem] object-cover" />
             </div>
-            <div className="tile tile-hover relative aspect-square">
-              <Image src="/visuals/microphone.webp" alt="Studio microphone, standing in for the podcast" fill sizes="45vw" className="object-cover" />
+            <div className="tile tile-hover relative aspect-[4/3]">
+              <Image src="/visuals/microphone.webp" alt="Studio microphone, standing in for the podcast" fill sizes="50vw" className="object-cover" />
             </div>
             <div className="tile tile-hover relative col-span-2 aspect-[16/9]">
-              <Image src="/visuals/building.webp" alt="Modern concrete and glass building at dusk" fill sizes="100vw" className="object-cover" />
-            </div>
-            <div className="col-span-2">
-              <AnswerCard />
+              <Image src="/visuals/calendar.webp" alt="Illustrative calendar with discovery calls booked" fill sizes="100vw" className="object-cover" />
             </div>
           </div>
 
           <div className="pointer-events-none absolute inset-0 hidden lg:block" aria-hidden="true">
-            <Parallax speed={-0.04} className="absolute left-0 top-6 w-40">
-              <div className="tile float -rotate-6">
-                <Image src="/visuals/blueprint.webp" alt="" width={320} height={320} className="h-40 w-40 object-cover" />
+            <Parallax speed={-0.04} className="absolute left-0 top-10 w-56">
+              <div className="tile float relative -rotate-3 border-4 border-[#C5A55A] bg-[#060D1A]">
+                <Image src="/visuals/ai-search.webp" alt="" width={448} height={280} sizes="224px" className="h-36 w-56 object-contain" />
               </div>
             </Parallax>
-            <Parallax speed={0.05} className="absolute right-0 top-0 w-64">
-              <div className="tile float-slow rotate-3 border-4 border-[#FF4D8D]">
-                <Image src="/visuals/building.webp" alt="" width={520} height={390} className="h-44 w-64 object-cover" />
+            <Parallax speed={0.05} className="absolute right-0 top-2 w-64">
+              <div className="tile float-slow relative rotate-2 border-4 border-[#C5A55A]">
+                <Image src="/visuals/calendar.webp" alt="" width={256} height={176} sizes="256px" className="h-44 w-64 object-cover" />
               </div>
             </Parallax>
-            <Parallax speed={0.03} className="absolute bottom-6 left-4 w-44">
-              <div className="tile float">
-                <Image src="/visuals/microphone.webp" alt="" width={360} height={360} className="h-44 w-44 object-cover" />
+            <Parallax speed={0.03} className="absolute bottom-8 left-2 w-40">
+              <div className="tile float relative">
+                <Image src="/visuals/microphone.webp" alt="" width={160} height={160} sizes="160px" className="h-40 w-40 object-cover" />
               </div>
             </Parallax>
-            <Parallax speed={-0.03} className="absolute bottom-10 right-8 w-52">
-              <div className="tile float-slow rotate-2 border-4 border-[#FFC53D]">
-                <Image src="/visuals/waveform.webp" alt="" width={400} height={400} className="h-36 w-52 object-cover" />
+            <Parallax speed={-0.03} className="absolute bottom-12 right-6 w-52">
+              <div className="tile float-slow relative rotate-2 border-4 border-[#C5A55A]">
+                <Image src="/visuals/waveform.webp" alt="" width={208} height={144} sizes="208px" className="h-36 w-52 object-cover" />
               </div>
             </Parallax>
           </div>
@@ -152,21 +130,21 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="bg-[#F4F0E8] text-[#070B16]" aria-labelledby="guests-heading">
+      <section className="border-t border-line bg-surface" aria-labelledby="guests-heading">
         <div className="mx-auto grid w-full max-w-[1200px] items-center gap-8 px-5 py-14 md:px-8 lg:grid-cols-12">
           <div className="lg:col-span-4">
-            <p className="font-mono text-xs uppercase tracking-[0.16em] text-[#6d5424]">In conversation with</p>
-            <h2 id="guests-heading" className="mt-3 text-3xl font-bold tracking-tight text-[#070B16] md:text-4xl">
+            <p className="eyebrow">In conversation with</p>
+            <h2 id="guests-heading" className="mt-3 text-3xl font-bold tracking-tight md:text-4xl">
               AEC leaders on the Advisor AI Solutions Podcast · {episodeCount} episodes
             </h2>
-            <p className="mt-3 text-sm text-[#3E4654]">Podcast guests, not clients.</p>
+            <p className="mt-3 text-sm text-muted">Podcast guests, not clients.</p>
           </div>
           <ul className="grid grid-cols-2 gap-3 lg:col-span-8 lg:grid-cols-4">
             {proofGuests.map((guest) => (
               <li key={guest.slug}>
-                <a href={`/podcast/${guest.slug}`} className="tile-hover block rounded-2xl bg-white px-4 py-4 shadow-sm">
-                  <span className="block text-lg font-bold tracking-tight text-[#070B16]">{guest.firm}</span>
-                  <span className="mt-1 block text-sm text-[#3E4654]">{guest.name} · Podcast guest</span>
+                <a href={`/podcast/${guest.slug}`} className="tile-hover block rounded-2xl border border-line bg-card px-4 py-4 hover:border-[#C5A55A]">
+                  <span className="block text-lg font-bold tracking-tight">{guest.firm}</span>
+                  <span className="mt-1 block text-sm text-muted">{guest.name} · Podcast guest</span>
                 </a>
               </li>
             ))}
@@ -187,8 +165,8 @@ export default function HomePage() {
               shows up or it doesn&apos;t. Most AEC firms are invisible to the tools their clients use to find vendors.
             </p>
           </div>
-          <div className="tile tile-hover relative aspect-[4/3] border-4 border-[#FFC53D] lg:col-span-6">
-            <Image src="/visuals/building.webp" alt="A lit concrete building, the kind of work AEC firms already deliver" fill sizes="(max-width: 1024px) 100vw, 560px" className="object-cover" />
+          <div className="tile tile-hover relative aspect-[4/3] border-4 border-[#C5A55A] lg:col-span-6">
+            <Image src="/visuals/ai-search.webp" alt="Illustrative AI answer. Not a live result." fill sizes="(max-width: 1024px) 100vw, 560px" className="object-cover" />
           </div>
         </div>
       </section>
@@ -223,28 +201,32 @@ export default function HomePage() {
             {pillars.map((pillar) => (
               <article key={pillar.number} className="tile tile-hover grid gap-4 bg-[#141B30] p-5 sm:grid-cols-5">
                 <div className="sm:col-span-3">
-                  <p className="font-mono text-xs uppercase tracking-[0.14em] text-[#FF4D8D]">{pillar.number} — {pillar.name}</p>
+                  <p className="font-mono text-xs uppercase tracking-[0.14em] text-[#C5A55A]">{pillar.number} — {pillar.name}</p>
                   <h3 className="mt-2 text-2xl font-bold tracking-tight">{pillar.title}</h3>
                   <p className="mt-3 text-sm leading-relaxed text-muted">{pillar.body}</p>
                 </div>
                 <div className="sm:col-span-2">
                   {pillar.number === "01" && (
-                    <div className="rounded-2xl bg-[#070B16] p-3 text-xs" aria-hidden="true">
+                    <div className="rounded-2xl bg-[#060D1A] p-3 text-xs" aria-hidden="true">
                       <p className="text-muted">AI answer</p>
                       <p className="mt-2 font-bold">Your firm</p>
                       <p className="mt-1 text-teal">Cited in the reply</p>
                     </div>
                   )}
-                  {pillar.number === "02" && <CalendarCard />}
+                  {pillar.number === "02" && (
+                    <div className="relative aspect-square overflow-hidden rounded-2xl">
+                      <Image src="/visuals/inbox.webp" alt="" fill sizes="240px" className="object-cover" />
+                    </div>
+                  )}
                   {pillar.number === "03" && (
                     <div className="relative aspect-square overflow-hidden rounded-2xl">
                       <Image src="/visuals/microphone.webp" alt="" fill sizes="200px" className="object-cover" />
                     </div>
                   )}
                   {pillar.number === "04" && (
-                    <div className="flex h-full items-end gap-2 rounded-2xl bg-[#070B16] p-3" aria-hidden="true">
+                    <div className="flex h-full items-end gap-2 rounded-2xl bg-[#060D1A] p-3" aria-hidden="true">
                       {[40, 65, 48, 80, 92].map((height) => (
-                        <span key={height} className="flex-1 rounded-t bg-[#3EE0D2]" style={{ height }} />
+                        <span key={height} className="flex-1 rounded-t bg-[#C5A55A]" style={{ height }} />
                       ))}
                     </div>
                   )}
@@ -255,7 +237,7 @@ export default function HomePage() {
           <blockquote className="mt-10 max-w-3xl text-2xl font-bold leading-snug tracking-tight md:text-3xl">
             You stay focused on the work you do best. The growth engine runs in the background.
           </blockquote>
-          <a href="/services" className="mt-6 inline-block text-sm font-semibold text-[#FF4D8D]">
+          <a href="/services" className="mt-6 inline-block text-sm font-semibold text-[#C5A55A]">
             See the system in detail
           </a>
         </div>
@@ -269,33 +251,33 @@ export default function HomePage() {
               <h2 className="mt-3 text-4xl font-bold tracking-tight md:text-5xl">From map to partnership.</h2>
             </div>
             <div className="tile relative aspect-[4/3] lg:col-span-5">
-              <Image src="/visuals/joint.webp" alt="Steel and timber connection on a building frame" fill sizes="(max-width: 1024px) 100vw, 420px" className="object-cover" />
+              <Image src="/visuals/workflow.webp" alt="Illustrative automation workflow" fill sizes="(max-width: 1024px) 100vw, 420px" className="object-cover" />
             </div>
           </div>
           <ol className="mt-10 grid gap-4 md:grid-cols-5">
             {steps.map((step) => (
               <li key={step.number} className="tile tile-hover flex flex-col bg-[#141B30] p-4">
-                <p className="font-mono text-sm text-[#FFC53D]">{step.number}</p>
+                <p className="font-mono text-sm text-[#C5A55A]">{step.number}</p>
                 <h3 className="mt-3 text-lg font-bold tracking-tight">{step.title}</h3>
                 <p className="mt-2 flex-1 text-sm text-muted">{step.body}</p>
-                <p className="mt-4 font-mono text-[0.68rem] uppercase tracking-[0.14em] text-[#FF4D8D]">
+                <p className="mt-4 font-mono text-[0.68rem] uppercase tracking-[0.14em] text-[#C5A55A]">
                   [PLACEHOLDER: duration]
                 </p>
               </li>
             ))}
           </ol>
-          <a href="/how-it-works" className="mt-6 inline-block text-sm font-semibold text-[#FF4D8D]">
+          <a href="/how-it-works" className="mt-6 inline-block text-sm font-semibold text-[#C5A55A]">
             Read the full process
           </a>
         </div>
       </section>
 
-      <section className="bg-[#FF4D8D] text-[#070B16]">
+      <section className="bg-[#C5A55A] text-[#060D1A]">
         <div className="mx-auto grid w-full max-w-[1200px] items-center gap-8 px-5 py-14 md:px-8 lg:grid-cols-12">
           <div className="lg:col-span-8">
             {/* [CONFIRM: guarantee still offered] The .com site published a 15+ calls / 90 days promise. Copy here stays soft until Jordan confirms it is current. */}
             <p className="font-mono text-xs uppercase tracking-[0.16em]">A note on the guarantee</p>
-            <p className="mt-4 text-2xl font-bold leading-snug tracking-tight text-[#070B16] md:text-3xl">
+            <p className="mt-4 text-2xl font-bold leading-snug tracking-tight text-[#060D1A] md:text-3xl">
               An earlier version of this site described a target of 15 or more qualified project consultation calls in 90
               days, with work continuing at no added cost until that mark. Ask on the discovery call whether that
               guarantee is part of the current engagement.
@@ -315,15 +297,15 @@ export default function HomePage() {
             {engagements.map((offer) => (
               <article
                 key={offer.name}
-                className={`tile tile-hover p-6 ${offer.popular ? "bg-[#FFC53D] text-[#070B16]" : "bg-[#141B30]"}`}
+                className={`tile tile-hover p-6 ${offer.popular ? "bg-[#C5A55A] text-[#060D1A]" : "bg-[#141B30]"}`}
               >
                 {offer.popular && <p className="font-mono text-xs uppercase tracking-[0.16em]">Most popular</p>}
-                <h3 className={`mt-2 text-3xl font-bold tracking-tight ${offer.popular ? "text-[#070B16]" : ""}`}>{offer.name}</h3>
-                <p className={`mt-2 font-mono text-sm uppercase tracking-[0.14em] ${offer.popular ? "text-[#070B16]" : "text-[#FF4D8D]"}`}>
+                <h3 className={`mt-2 text-3xl font-bold tracking-tight ${offer.popular ? "text-[#060D1A]" : ""}`}>{offer.name}</h3>
+                <p className={`mt-2 font-mono text-sm uppercase tracking-[0.14em] ${offer.popular ? "text-[#060D1A]" : "text-[#C5A55A]"}`}>
                   {offer.price}
                 </p>
-                <p className={`mt-4 text-sm leading-relaxed ${offer.popular ? "text-[#070B16]/80" : "text-muted"}`}>{offer.body}</p>
-                <a href={offer.href} className={`mt-6 inline-block text-sm font-bold ${offer.popular ? "text-[#070B16]" : "text-[#FF4D8D]"}`}>
+                <p className={`mt-4 text-sm leading-relaxed ${offer.popular ? "text-[#060D1A]/80" : "text-muted"}`}>{offer.body}</p>
+                <a href={offer.href} className={`mt-6 inline-block text-sm font-bold ${offer.popular ? "text-[#060D1A]" : "text-[#C5A55A]"}`}>
                   {offer.cta}
                 </a>
               </article>
@@ -343,7 +325,7 @@ export default function HomePage() {
             </p>
             <div className="mt-6 grid grid-cols-2 gap-3">
               <div className="relative aspect-[4/5] overflow-hidden rounded-3xl">
-                <Image src="/visuals/model.webp" alt="Architectural massing model" fill sizes="240px" className="object-cover" />
+                <Image src="/visuals/dashboard.webp" alt="Illustrative pipeline dashboard, not reported results" fill sizes="240px" className="object-cover" />
               </div>
               <div className="flex aspect-[4/5] items-end rounded-3xl border border-dashed border-white/30 p-4" role="img" aria-label="Placeholder for a portrait of Jordan Salvador">
                 <p className="text-sm text-muted">[PLACEHOLDER: headshot of Jordan]</p>
@@ -353,7 +335,7 @@ export default function HomePage() {
               [CONFIRM: founding year 2024 or 2025. The career timeline on the about page starts the company in 2025.
               An older organization record said 2024.]
             </p>
-            <a href="/about" className="mt-4 inline-block text-sm font-semibold text-[#FF4D8D]">
+            <a href="/about" className="mt-4 inline-block text-sm font-semibold text-[#C5A55A]">
               Jordan&apos;s full story
             </a>
           </div>
@@ -361,7 +343,7 @@ export default function HomePage() {
             <ol className="space-y-4">
               {timeline.map((item) => (
                 <li key={item.years} className="rounded-2xl border border-white/10 bg-[#141B30] p-5">
-                  <p className="font-mono text-xs uppercase tracking-[0.14em] text-[#FFC53D]">{item.years}</p>
+                  <p className="font-mono text-xs uppercase tracking-[0.14em] text-[#C5A55A]">{item.years}</p>
                   <h3 className="mt-1 text-2xl font-bold tracking-tight">{item.title}</h3>
                   <p className="text-sm text-muted">{item.place}</p>
                 </li>
@@ -369,9 +351,9 @@ export default function HomePage() {
             </ol>
             <ul className="mt-4 grid gap-3 sm:grid-cols-2">
               {principles.map((item) => (
-                <li key={item.title} className="rounded-2xl bg-[#FFC53D] p-4 text-[#070B16]">
-                  <h3 className="text-xl font-bold tracking-tight text-[#070B16]">{item.title}</h3>
-                  <p className="mt-1 text-sm text-[#070B16]/80">{item.body}</p>
+                <li key={item.title} className="rounded-2xl bg-[#C5A55A] p-4 text-[#060D1A]">
+                  <h3 className="text-xl font-bold tracking-tight text-[#060D1A]">{item.title}</h3>
+                  <p className="mt-1 text-sm text-[#060D1A]/80">{item.body}</p>
                 </li>
               ))}
             </ul>
@@ -386,7 +368,7 @@ export default function HomePage() {
               <p className="eyebrow">Podcast</p>
               <h2 className="mt-3 text-4xl font-bold tracking-tight md:text-5xl">Latest conversations</h2>
             </div>
-            <a href={site.youtubeSubscribe} className="text-sm font-semibold text-[#FF4D8D]">
+            <a href={site.youtubeSubscribe} className="text-sm font-semibold text-[#C5A55A]">
               Subscribe on YouTube
             </a>
           </div>
@@ -398,8 +380,8 @@ export default function HomePage() {
                     <Image src={episode.thumb} alt="" fill sizes="(max-width: 768px) 100vw, 280px" className="object-cover" />
                   </div>
                   <div className="p-4">
-                    <p className="font-mono text-[0.68rem] uppercase tracking-[0.14em] text-[#FFC53D]">Episode {episode.ep}</p>
-                    <h3 className="mt-1 text-xl font-bold leading-snug tracking-tight group-hover:text-[#FF4D8D]">{episode.title}</h3>
+                    <p className="font-mono text-[0.68rem] uppercase tracking-[0.14em] text-[#C5A55A]">Episode {episode.ep}</p>
+                    <h3 className="mt-1 text-xl font-bold leading-snug tracking-tight group-hover:text-[#C5A55A]">{episode.title}</h3>
                     <p className="mt-2 text-sm text-muted">Podcast guest · {episode.guest}</p>
                   </div>
                 </a>
@@ -416,20 +398,20 @@ export default function HomePage() {
               <p className="eyebrow">From the blog</p>
               <h2 className="mt-3 text-4xl font-bold tracking-tight md:text-5xl">Notes from the work</h2>
             </div>
-            <a href="/blog" className="text-sm font-semibold text-[#FF4D8D]">
+            <a href="/blog" className="text-sm font-semibold text-[#C5A55A]">
               All articles
             </a>
           </div>
           <ul className="mt-10 grid gap-4 md:grid-cols-3">
             {posts.map((post, index) => (
-              <li key={post.slug} className={`tile tile-hover p-5 ${index === 0 ? "bg-[#FF4D8D] text-[#070B16]" : "bg-[#141B30]"}`}>
-                <p className={`font-mono text-[0.68rem] uppercase tracking-[0.14em] ${index === 0 ? "text-[#070B16]" : "text-[#FFC53D]"}`}>
+              <li key={post.slug} className={`tile tile-hover p-5 ${index === 0 ? "bg-[#C5A55A] text-[#060D1A]" : "bg-[#141B30]"}`}>
+                <p className={`font-mono text-[0.68rem] uppercase tracking-[0.14em] ${index === 0 ? "text-[#060D1A]" : "text-[#C5A55A]"}`}>
                   {post.category} · {post.dateLabel}
                 </p>
-                <h3 className={`mt-3 text-2xl font-bold leading-snug tracking-tight ${index === 0 ? "text-[#070B16]" : ""}`}>
+                <h3 className={`mt-3 text-2xl font-bold leading-snug tracking-tight ${index === 0 ? "text-[#060D1A]" : ""}`}>
                   <a href={`/blog/${post.slug}`}>{post.title}</a>
                 </h3>
-                <p className={`mt-3 line-clamp-4 text-sm ${index === 0 ? "text-[#070B16]/80" : "text-muted"}`}>{post.excerpt}</p>
+                <p className={`mt-3 line-clamp-4 text-sm ${index === 0 ? "text-[#060D1A]/80" : "text-muted"}`}>{post.excerpt}</p>
               </li>
             ))}
           </ul>
@@ -442,9 +424,9 @@ export default function HomePage() {
             <p className="eyebrow">FAQ</p>
             <h2 className="mt-3 text-4xl font-bold tracking-tight md:text-5xl">Straight answers.</h2>
             <div className="tile relative mt-6 hidden aspect-square lg:block">
-              <Image src="/visuals/blueprint.webp" alt="" fill sizes="320px" className="object-cover" />
+              <Image src="/visuals/player.webp" alt="" fill sizes="320px" className="object-cover" />
             </div>
-            <a href="/faq" className="mt-6 inline-block text-sm font-semibold text-[#FF4D8D]">
+            <a href="/faq" className="mt-6 inline-block text-sm font-semibold text-[#C5A55A]">
               All questions
             </a>
           </div>
@@ -469,7 +451,7 @@ export default function HomePage() {
             </a>
           </div>
           <div className="relative aspect-square overflow-hidden rounded-3xl lg:col-span-4">
-            <Image src="/visuals/model.webp" alt="" fill sizes="360px" className="object-cover" />
+            <Image src="/visuals/inbox.webp" alt="" fill sizes="360px" className="object-cover" />
           </div>
         </div>
       </section>

@@ -1,4 +1,5 @@
 import { Breadcrumbs } from "@/components/breadcrumbs";
+import { MediaRail } from "@/components/media-rail";
 import { FaqList } from "@/components/faq-list";
 import { JsonLd } from "@/components/json-ld";
 import { getFaqs, getUnconfirmedFaqs } from "@/lib/content";
@@ -21,7 +22,8 @@ export default function FaqPage() {
       <Breadcrumbs items={[{ name: "Home", path: "/" }, { name: "FAQ", path: "/faq" }]} />
       <p className="eyebrow">FAQ</p>
       <h1 className="mt-3 font-serif text-4xl md:text-6xl">Answered straight.</h1>
-      <p className="mt-5 text-lg text-muted">
+      <MediaRail />
+      <p className="mt-6 text-lg text-muted">
         These answers are from the published insights page. Questions from the older site that had no answer text are
         marked.
       </p>
