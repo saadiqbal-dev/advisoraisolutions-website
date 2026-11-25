@@ -1,0 +1,482 @@
+[
+  {
+    "id": 23,
+    "title": "I Interviewed 21 AEC Founders About AI. Here Is What Actually Worked.",
+    "slug": "i-interviewed-21-aec-founders-ai-here-what-actually-worked",
+    "category": "AI Strategy",
+    "tag": "AI Strategy",
+    "date": "September 9, 2026",
+    "readTime": "9 min read",
+    "linkedinUrl": "https://www.linkedin.com/pulse/i-interviewed-21-aec-founders-ai-here-what-actually-worked-salvador-2p0de/",
+    "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=80",
+    "excerpt": "After 21 conversations with AEC owners and operators, a clear pattern emerged: the firms getting real value from AI are not chasing tools. They are redesigning work, keeping experienced people in the loop, publishing specific expertise, and removing the operational bottlenecks that hold growth back.",
+    "keyTopics": [
+      "AI Strategy",
+      "AEC Operations",
+      "AI Visibility",
+      "Workflow Design",
+      "Professional Judgment"
+    ],
+    "body": [
+      "Over several months, I recorded conversations with 21 owners and operators across architecture, engineering, construction, land development, planning, energy, and building-products distribution. The firms ranged from two people to thirty, and the work ranged from design and structural engineering to energy, logistics, and local development. Different markets, different problems, and one recurring lesson: the useful AI work begins long before a team chooses a tool.",
+      "**The firms winning with AI can tell when it is wrong**",
+      "The strongest pattern was not automation for its own sake. It was experienced people using AI to compress research, analysis, document review, and other preparatory work, then applying their own judgment before anything reached a client. In one structural-engineering example, AI surfaced genuine material savings. In another, it generated a multimillion-dollar figure based on the wrong location and code assumptions. The differentiator was not the tool. It was the person who knew how to test the output.",
+      "For an AEC firm, the practical question is not whether AI can perform a task. It is whether someone can recognize an incorrect answer quickly enough to prevent it becoming a client, design, estimating, or compliance problem. When nobody can verify the result, that workflow is not ready for autonomy.",
+      "**Specific expertise is becoming more discoverable**",
+      "Several conversations pointed to the same shift in how firms are found. A design practice built visibility by publishing narrow, local answers tied to real homeowner questions, neighbourhoods, and budgets. A specialist distributor saw AI chat tools surface products that traditional search results had buried. Both examples reinforce a simple principle: answer engines reward specificity. Generic capability pages are difficult to cite. Clear answers to actual client questions are easier for people and AI systems to find, trust, and share.",
+      "**The real constraint is often a person-shaped bottleneck**",
+      "Many firms described a familiar growth problem: essential knowledge, approvals, client context, or production decisions living with one individual. The businesses that gained capacity were not simply automating around that person. They documented decision paths, clarified ownership, split overloaded roles, and built systems that let other people move work forward without waiting. A good test is simple: if the owner disappeared for thirty days, what would fail first? The immediate answer is often the highest-value operating-system improvement.",
+      "**Structure comes before software**",
+      "Small teams are doing more with fewer people when they redesign how work moves through the business before layering on technology. Across the interviews, the best results came from mapping a workflow end to end, identifying the handoffs and waiting that create drag, and then applying tools to the redesigned process. Automating a broken workflow only produces a faster broken workflow.",
+      "**A practical starting point for AEC leaders**",
+      "Choose one workflow that is both costly and easy to verify: code or energy analysis, research, document review, product cross-referencing, lead qualification, or project-data retrieval. Define the source of truth, name the reviewer, measure the time or decision-quality gain, and only then expand. AI becomes a durable advantage when it helps a firm make better decisions with less friction, not when it removes responsibility from the people clients hired to exercise it."
+    ]
+  },
+  {
+    "id": 22,
+    "title": "What a 1997 Email Client Teaches AEC Leaders About AI-Ready Operations",
+    "slug": "what-a-1997-email-client-teaches-aec-leaders-about-ai-ready-operations",
+    "category": "AI Strategy",
+    "tag": "AI Strategy",
+    "date": "September 2026",
+    "readTime": "6 min read",
+    "linkedinUrl": "https://www.linkedin.com/in/jordansalvador",
+    "image": "https://img.youtube.com/vi/ZL8vaPgUxFU/maxresdefault.jpg",
+    "excerpt": "Derrick Lawless inherited a family business with decades of know-how and a 1997 email client. His rebuild offers AEC leaders a useful reminder: AI cannot compound value until systems, data, and operational ownership stop living in one person's head.",
+    "keyTopics": [
+      "AI-Ready Operations",
+      "Legacy Systems",
+      "Knowledge Management",
+      "AI Discovery",
+      "Business Growth"
+    ],
+    "body": [
+      "In the newest Advisor AI Solutions Podcast conversation, Derrick Lawless describes inheriting D. Lawless Hardware after his father passed away. Along with a national hardware distribution and e-commerce business, he inherited an email client from 1997 and a workflow that required him to screen-share into a computer at the building just to read his own company email. That story is not really about old software. It is about the hidden operating debt that accumulates when a business grows faster than its systems.",
+      "For AEC leaders, the lesson is immediate. The most consequential AI question is rarely which tool to buy. It is whether the information, approvals, customer history, project context, and decisions the business depends on can move without one specific person being present.",
+      "**Start with operational ownership, not AI**",
+      "Lawless did not treat the old system as a punchline. He treated it as a real operating constraint to understand and rebuild. That is a useful model for architecture, engineering, and construction firms. Before adding automation, map the work that is trapped in individual inboxes, personal spreadsheets, disconnected estimating tools, or informal handoffs. If a process only works because one person remembers how it works, it is not yet ready to scale with AI.",
+      "**Remove the single-person bottleneck**",
+      "One of the central themes from the episode is the risk of what Lawless calls the one-person knowledge bottleneck. Any business can become fragile when only one estimator knows the pricing logic, only one project manager understands a client history, or only one operations lead can find the right record. The fix is not to erase expertise. It is to document the decision path, establish a source of truth, and give the team a shared way to access it.",
+      "**Redesign work before you measure efficiency**",
+      "Over five years, Lawless rebuilt systems and took headcount from 20 to 12 while keeping close to the same revenue, with no firings. The signal for AEC firms is not that every team should be smaller. It is that operational improvement should come from redesigning repetitive work, eliminating avoidable friction, and creating capacity for higher-value decisions. AI can support that work, but it cannot replace the design of the operating system.",
+      "**Structured information is discoverable information**",
+      "The episode also points to a new commercial reality. Lawless sees chatbots finding specialist products that traditional Google results do not reliably surface. For AEC firms, the equivalent is expertise: particular project types, technical capabilities, credentials, locations, and proof. When those signals are scattered or vague, people and AI systems have little to work with. When they are specific, current, and structured, they become easier to find and recommend.",
+      "**Use AI with a verification loop**",
+      "Lawless is clear that AI should not be trusted blindly. His approach is to let AI assist the search, then verify the output. That is a sound operating principle for an AEC firm. Use AI to accelerate research, draft a first pass, surface options, and reduce low-value administration. Keep qualified people responsible for checking material facts, commercial judgment, and client-facing decisions.",
+      "**The practical next move for AEC leaders**",
+      "Choose one revenue-critical workflow this quarter: lead qualification, proposal handoff, project data retrieval, client follow-up, or expert knowledge capture. Identify where ownership is unclear, where data is duplicated, and where the next person would get stuck. Fix the workflow and its source of truth first. Then add automation with a defined verification step. That is how AI becomes a durable operating advantage instead of a faster way to reproduce old chaos."
+    ],
+    "featured": true
+  },
+  {
+    "id": 21,
+    "title": "The AEC AI Paradox: 75% Are Using It, Only 29% Trust the Data Underneath",
+    "slug": "aec-ai-paradox-75-using-only-29-trust-data-underneath",
+    "category": "AI Strategy",
+    "tag": "AI Strategy",
+    "date": "July 2026",
+    "readTime": "8 min read",
+    "linkedinUrl": "https://www.linkedin.com/pulse/aec-ai-paradox-75-using-only-29-trust-data-underneath-salvador-u8pge",
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
+    "excerpt": "Three out of four AEC firms now use AI. Fewer than one in three trust the data feeding it. That gap is the most important number in our industry right now, and almost nobody is talking about it.",
+    "keyTopics": [
+      "AI Strategy",
+      "Data Foundation",
+      "AEC Growth",
+      "Pipeline Management",
+      "Construction Innovation"
+    ],
+    "body": [
+      "Three out of four AEC firms now use AI. Fewer than one in three trust the data feeding it. That gap is the most important number in our industry right now, and almost nobody is talking about it.",
+      "I spend my days building AI growth systems for engineering firms, modular builders, and sustainable construction companies. So when the 2026 AEC Inspire Report from Unanet landed in June, one line stopped me cold. 75% of AEC firms now report using AI, up roughly 20 points in a single year, but only 29% say they have high confidence in the data those tools run on. That is not an adoption story. It is a foundation story wearing an adoption story's clothes.",
+      "Here is my thesis, and you can hold me to it. AI adoption in AEC firms is not the competitive advantage everyone thinks it is. The advantage goes to the firms that fix their data and pipeline foundation first, because AI built on bad data does not fail loudly. It fails quietly, and it takes your best decisions down with it.",
+      "**Why are AEC firms adopting AI faster than they can trust it?**",
+      "AEC firms are adopting AI faster than they can trust it because adoption is easy to buy and trust is hard to build. Signing up for an AI tool takes a credit card and an afternoon. Getting your project data, CRM, and pipeline clean enough to feed that tool takes discipline nobody scoped into the budget.",
+      "The pressure is rational. The 2026 Inspire Report surveyed roughly 300 U.S. AEC leaders, and the same report that flagged the data gap showed win rates stuck around 50% even as firms pushed more proposals out the door. When you are working harder for the same hit rate, 'add AI' sounds like the obvious lever.",
+      "And the broader design and make world is already all in. Autodesk's 2026 State of Design & Make: AI Pulse, based on 2,500 global industry leaders, found that 98% of leaders now use at least one AI tool and 84% say it has increased productivity at their organization. Nobody wants to be the last firm holding a fax machine.",
+      "But notice what is happening underneath. Optimism about the industry's own future is actually falling. The Inspire Report tracked AEC leader optimism dropping from 86% in 2023 to 66% in 2025. Firms are buying more tools while feeling less sure about where they are headed. That is the tell. When adoption goes up and confidence goes down, you are not looking at a technology gap. You are looking at a foundation gap.",
+      "**What is the 'data confidence gap,' and why does it break AI in construction?**",
+      "The data confidence gap is the distance between the AI tools a firm has deployed and the quality of the data those tools depend on to be right. It matters because AI is a multiplier, not a fixer. Point it at clean, current, well-structured information and it multiplies good judgment. Point it at a messy pipeline and it multiplies your mistakes at machine speed.",
+      "This is not a new problem that AI invented. It is an old problem AI just made expensive. Back in 2020, a study from Autodesk and FMI put a number on it. Bad data may have cost the global construction industry an estimated $1.85 trillion, with 30% of respondents saying more than half of their project data was 'bad' and produced poor decisions more than half the time.",
+      "Only 12% of respondents said they consistently incorporated project data into their decision-making at all. Most of the industry was already flying on instinct while sitting on mountains of data it never used. Now overlay AI on that reality. The tool does not know your CRM has three versions of the same client, that half your 'won' deals were never updated, or that your go/no-go history lives in someone's inbox. It just answers confidently. In construction, a wrong answer delivered with confidence is how you chase a bid you should have passed on.",
+      "**What does the data confidence gap actually cost an AEC firm?**",
+      "It costs firms the exact thing they bought AI to get: better decisions, faster. When the data underneath is unreliable, AI accelerates the wrong calls, and the losses compound quietly through the bid cycle, the sales to delivery handoff, and the pipeline itself.",
+      "A pattern we hear again and again from firms on the Advisor AI Solutions Podcast goes something like this. A capable, mid-sized engineering firm buys a stack of AI tools to speed up proposals and chase more work. Six months in, they are producing proposals faster than ever and closing at the same rate as before. The tools worked as advertised. The problem was upstream. They aimed all that new speed at a pipeline nobody had cleaned, chasing the same undifferentiated leads faster, with a CRM so scattered the AI could not tell a live opportunity from a dead one.",
+      "Zoom out and the stakes are enormous. McKinsey Global Institute has estimated that if construction productivity caught up with the rest of the economy, the sector would add roughly $1.6 trillion in value, about 2% of the global economy. That gap has persisted for decades precisely because the industry runs on fragmented data and gut-feel decisions. AI is the first tool with a real shot at closing it. But only for the firms that give it something solid to stand on.",
+      "**Where does AI actually pay off for AEC firms right now?**",
+      "AI pays off right now where it is fed clean, structured, current data and pointed at a specific, repeatable decision. Targeting the right opportunities, qualifying leads, keeping the pipeline warm, and turning scattered activity into visible growth. It struggles wherever the underlying information is stale, siloed, or contradictory.",
+      "Autodesk's 2026 AI Pulse found 59% of organizations already use or plan to use agentic AI within a year. Agentic AI is software that carries out multi-step tasks on your behalf, such as researching a prospect, drafting the follow-up, and updating the record, rather than just answering questions. For growth-stage AEC firms, that is where the leverage lives.",
+      "The firms getting real ROI are not the ones with the most tools. They are the ones who did the unglamorous work first. They defined their ideal client precisely, cleaned the CRM, wired their systems together so data flows instead of pooling, and only then let AI run on top. That order matters more than any single tool choice. Foundation, then acceleration. Never the reverse.",
+      "**How should a smart AEC firm fix its data foundation this quarter?**",
+      "A smart firm fixes its foundation before it scales its AI, and it can start this quarter with four concrete moves. Define the target, clean the source, connect the systems, then automate. In that order. Skipping to automation is how firms end up in the 71% who use AI but cannot trust what it tells them.",
+      "First, sharpen your targeting. Decide, on paper, exactly which projects and clients you want: the ones that fit your delivery strengths and your margins. Most firms chase everything and wonder why their pipeline feels like feast or famine. AI is only as good as the definition of 'good lead' you give it.",
+      "Second, clean the source of truth. Your CRM and project history are the data your AI will run on. If they are scattered, deduplicated by nobody, and updated by whoever remembers, fix that before you automate on top of it. This is tedious and it is the highest-ROI work you will do all year.",
+      "Third, connect your systems so data moves. The $1.85 trillion in bad-data cost comes largely from information trapped in silos: the estimate that never talks to the CRM, and the CRM that never talks to delivery. Integration is what turns activity into visibility.",
+      "Fourth, and only now, automate. Layer AI on a foundation that can actually support it, with automated qualification, follow-up, and nurture that run on data you trust. Done in this order, AI stops being a gamble and starts being a compounding asset.",
+      "**The foundation is the opportunity**",
+      "In a market where nearly every firm now has AI, the tool is no longer the edge. The edge is the foundation you run it on. The 71% of AEC firms without high data confidence are not behind on technology. They are behind on infrastructure. And infrastructure is fixable, on a timeline that matters, for firms willing to do the work before they scale the speed."
+    ],
+    "featured": true
+  },
+  {
+    "id": 1,
+    "title": "Full-Service Interior Design: Building Spaces for Real Life",
+    "slug": "full-service-interior-design-building-spaces-for-real-life",
+    "category": "Construction Industry",
+    "tag": "Construction Industry",
+    "date": "2025",
+    "readTime": "5 min read",
+    "linkedinUrl": "https://www.linkedin.com/pulse/full-service-interior-design-building-spaces-real-life-salvador-289fe",
+    "image": "https://media.licdn.com/dms/image/v2/D4E12AQHcRPtAdws0sg/article-cover_image-shrink_720_1280/B4EZ4tZBH9H0AQ-/0/1778877998690?e=2147483647&v=beta&t=IXrTM8whERft8Tarkf-wJcHAU3YTSG8ZxZpha0HnYKg",
+    "excerpt": "When a client walks into a design consultation, they are rarely asking for what they actually need. They want the kitchen from the magazine, the entertaining flow from a dinner party they attended thr",
+    "keyTopics": [
+      "AI Strategy",
+      "AEC Growth",
+      "Construction Innovation"
+    ],
+    "body": []
+  },
+  {
+    "id": 2,
+    "title": "Rebuilding Resilience: How Simplus Systems Is Reinventing the Future of Wildfire-Resistant, Passive, and Prefabricated Homes",
+    "slug": "rebuilding-resilience-how-simplus-systems-is-reinventing-the-future-of",
+    "category": "Construction Industry",
+    "tag": "Construction Industry",
+    "date": "2025",
+    "readTime": "5 min read",
+    "linkedinUrl": "https://www.linkedin.com/pulse/rebuilding-resilience-how-simplus-systems-reinventing-salvador-cocgc",
+    "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80",
+    "excerpt": "When the flames die down, the real rebuilding begins. And that’s where Simplus Systems steps in: a powerhouse trio of Tim Sweeney, Timothy Lorang, and James Croft, leading a quiet revolution in how w",
+    "keyTopics": [
+      "AI Strategy",
+      "AEC Growth",
+      "Construction Innovation"
+    ],
+    "body": [],
+    "featured": true
+  },
+  {
+    "id": 3,
+    "title": "Building the Future, One IncaBlock at a Time: How Dr. Daniel Correa and GloHab Are Reinventing Construction for a Disaster-Proof World",
+    "slug": "building-the-future-one-incablock-at-a-time-how-dr-daniel-correa-and-g",
+    "category": "Construction Industry",
+    "tag": "Construction Industry",
+    "date": "2025",
+    "readTime": "5 min read",
+    "linkedinUrl": "https://www.linkedin.com/pulse/building-future-one-incablock-time-how-dr-daniel-correa-salvador-krtdc",
+    "image": "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=80",
+    "excerpt": "What if you could build a home that resists fire, floods, earthquakes, and still costs less than a wood-frame house? That’s not a futuristic concept. It’s the reality being built today by Dr.",
+    "keyTopics": [
+      "AI Strategy",
+      "AEC Growth",
+      "Construction Innovation"
+    ],
+    "body": []
+  },
+  {
+    "id": 4,
+    "title": "From Dorm Room to Global Impact: How IDEAS for Us Is Using AI, Crypto, and Chaos to Power the Next Generation of Environmental Action",
+    "slug": "from-dorm-room-to-global-impact-how-ideas-for-us-is-using-ai-crypto-an",
+    "category": "AI & Technology",
+    "tag": "AI & Technology",
+    "date": "2025",
+    "readTime": "5 min read",
+    "linkedinUrl": "https://www.linkedin.com/pulse/from-dorm-room-global-impact-how-ideas-us-using-ai-crypto-salvador-kd71c",
+    "image": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800&q=80",
+    "excerpt": "If the world feels like it’s on fire, it’s because it is. And that’s exactly why Clayton Louis Ferrara wakes up every morning ready to fight it.",
+    "keyTopics": [
+      "AI Strategy",
+      "AEC Growth",
+      "Construction Innovation"
+    ],
+    "body": []
+  },
+  {
+    "id": 5,
+    "title": "From a Forgotten Sketch to a Stormwater Revolution: How Navy McKee and Kai Pono Solutions Are Redefining Water Protection in America",
+    "slug": "from-a-forgotten-sketch-to-a-stormwater-revolution-how-navy-mckee-and",
+    "category": "AI & Technology",
+    "tag": "AI & Technology",
+    "date": "2025",
+    "readTime": "5 min read",
+    "linkedinUrl": "https://www.linkedin.com/pulse/from-forgotten-sketch-stormwater-revolution-how-navy-mckee-salvador-awi7c",
+    "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
+    "excerpt": "Every once in a while, a story comes along that reminds us where innovation really starts. Not in a boardroom.",
+    "keyTopics": [
+      "AI Strategy",
+      "AEC Growth",
+      "Construction Innovation"
+    ],
+    "body": []
+  },
+  {
+    "id": 6,
+    "title": "Why AI Is Becoming the Secret Advantage for the Builders Designing a Cleaner Future",
+    "slug": "why-ai-is-becoming-the-secret-advantage-for-the-builders-designing-a-c",
+    "category": "AI & Technology",
+    "tag": "AI & Technology",
+    "date": "2025",
+    "readTime": "5 min read",
+    "linkedinUrl": "https://www.linkedin.com/pulse/why-ai-becoming-secret-advantage-builders-designing-cleaner-salvador-y6ryc",
+    "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80",
+    "excerpt": "Spend enough time talking to the innovators in green construction and sustainability, including the stormwater pioneers, the wildfire-resilient builders, the adaptive-reuse visionaries, and the material scientists",
+    "keyTopics": [
+      "AI Strategy",
+      "AEC Growth",
+      "Construction Innovation"
+    ],
+    "body": []
+  },
+  {
+    "id": 7,
+    "title": "When the Future of Sustainability Shows Up Wearing Work Boots",
+    "slug": "when-the-future-of-sustainability-shows-up-wearing-work-boots",
+    "category": "AI & Technology",
+    "tag": "AI & Technology",
+    "date": "2025",
+    "readTime": "5 min read",
+    "linkedinUrl": "https://www.linkedin.com/pulse/when-future-sustainability-shows-up-wearing-work-boots-salvador-2owfc",
+    "image": "https://images.unsplash.com/photo-1560179707-f14e90ef3623?w=800&q=80",
+    "excerpt": "A Story About AI, Ecology, and the Quiet People Rebuilding the Planet. Some conversations don’t feel like interviews. They feel like origin stories, the kind that remind you why certain people end up ",
+    "keyTopics": [
+      "AI Strategy",
+      "AEC Growth",
+      "Construction Innovation"
+    ],
+    "body": []
+  },
+  {
+    "id": 8,
+    "title": "The Mountain, the Sun & the Blueprint: How One Builder Is Quietly Rewriting Energy Design",
+    "slug": "the-mountain-the-sun-the-blueprint-how-one-builder-is-quietly-rewritin",
+    "category": "AI & Technology",
+    "tag": "AI & Technology",
+    "date": "2025",
+    "readTime": "5 min read",
+    "linkedinUrl": "https://www.linkedin.com/pulse/mountain-sun-blueprint-how-one-builder-quietly-energy-salvador-yvkfc",
+    "image": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&q=80",
+    "excerpt": "A Conversation with Travis Wade of Wade Energy By Jordan Salvador There’s something different about the way Travis Wade talks about buildings. Most people in construction talk in numbers: R-values, BT",
+    "keyTopics": [
+      "AI Strategy",
+      "AEC Growth",
+      "Construction Innovation"
+    ],
+    "body": []
+  },
+  {
+    "id": 9,
+    "title": "The Dome That Could Save Your Life",
+    "slug": "the-dome-that-could-save-your-life",
+    "category": "Sustainability",
+    "tag": "Sustainability",
+    "date": "2025",
+    "readTime": "5 min read",
+    "linkedinUrl": "https://www.linkedin.com/pulse/dome-could-save-your-life-jordan-salvador-kshuc",
+    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&q=80",
+    "excerpt": "Scott Black was dying slowly, and he knew it. Gulf War toxins had done their damage.",
+    "keyTopics": [
+      "AI Strategy",
+      "AEC Growth",
+      "Construction Innovation"
+    ],
+    "body": []
+  },
+  {
+    "id": 10,
+    "title": "Sustainability Isnt a Feature. Its the Foundation.",
+    "slug": "sustainability-isnt-a-feature-its-the-foundation",
+    "category": "AI & Technology",
+    "tag": "AI & Technology",
+    "date": "2025",
+    "readTime": "5 min read",
+    "linkedinUrl": "https://www.linkedin.com/pulse/sustainability-isnt-feature-its-foundation-jordan-salvador-5e3ec",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80",
+    "excerpt": "Most firms say sustainability matters. Fewer actually build from it.",
+    "keyTopics": [
+      "AI Strategy",
+      "AEC Growth",
+      "Construction Innovation"
+    ],
+    "body": []
+  },
+  {
+    "id": 11,
+    "title": "Why Construction Hasnt Really Changed in 150 Years and Why That Is Starting to Shift",
+    "slug": "why-construction-hasnt-really-changed-in-150-years-and-why-that-is-sta",
+    "category": "Construction Industry",
+    "tag": "Construction Industry",
+    "date": "2025",
+    "readTime": "5 min read",
+    "linkedinUrl": "https://www.linkedin.com/pulse/why-construction-hasnt-really-changed-150-years-shift-salvador-wb1kc",
+    "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=800&q=80",
+    "excerpt": "We talk a lot about innovation in construction. Design software has improved.",
+    "keyTopics": [
+      "AI Strategy",
+      "AEC Growth",
+      "Construction Innovation"
+    ],
+    "body": []
+  },
+  {
+    "id": 12,
+    "title": "A Veteran Architects Warning: Why Profit Margins Are Shrinking in Architecture",
+    "slug": "a-veteran-architects-warning-why-profit-margins-are-shrinking-in-archi",
+    "category": "Construction Industry",
+    "tag": "Construction Industry",
+    "date": "2025",
+    "readTime": "5 min read",
+    "linkedinUrl": "https://www.linkedin.com/pulse/veteran-architects-warning-why-profit-margins-jordan-salvador-1y6ec",
+    "image": "https://media.licdn.com/dms/image/v2/D5612AQFiQ6JgCbx3aw/article-cover_image-shrink_720_1280/B56ZzTZ3wNHUAI-/0/1773073305069?e=2147483647&v=beta&t=9o9OJofly3Jbt2h9kZYqIN2_6DV_2j6lEamtqI89-6o",
+    "excerpt": "Architecture firms are facing a silent crisis. Margins are shrinking.",
+    "keyTopics": [
+      "AI Strategy",
+      "AEC Growth",
+      "Construction Innovation"
+    ],
+    "body": []
+  },
+  {
+    "id": 13,
+    "title": "How High-End Construction Companies Are Missing Growth Opportunities Without Realizing It",
+    "slug": "how-high-end-construction-companies-are-missing-growth-opportunities-w",
+    "category": "Construction Industry",
+    "tag": "Construction Industry",
+    "date": "2025",
+    "readTime": "5 min read",
+    "linkedinUrl": "https://www.linkedin.com/pulse/how-high-end-construction-companies-missing-growth-without-salvador-ckscc",
+    "image": "https://media.licdn.com/dms/image/v2/D5612AQEMe_kaEUjwqQ/article-cover_image-shrink_720_1280/B56Z0CrnxvKMAI-/0/1773866486705?e=2147483647&v=beta&t=sx3wiIp8s9kG4fACqH7sdMSUyRYMMECjACFm6XkirfY",
+    "excerpt": "A few months ago, I had a conversation with a contractor. Not just any contractor.",
+    "keyTopics": [
+      "AI Strategy",
+      "AEC Growth",
+      "Construction Innovation"
+    ],
+    "body": []
+  },
+  {
+    "id": 14,
+    "title": "The Real Reason Your Construction Projects Keep Getting Delayed (And It Has Nothing to Do With the City)",
+    "slug": "the-real-reason-your-construction-projects-keep-getting-delayed-and-it",
+    "category": "Construction Industry",
+    "tag": "Construction Industry",
+    "date": "2025",
+    "readTime": "5 min read",
+    "linkedinUrl": "https://www.linkedin.com/pulse/real-reason-your-construction-projects-keep-getting-delayed-salvador-q396c",
+    "image": "https://media.licdn.com/dms/image/v2/D5612AQHro_N6PmR6fg/article-cover_image-shrink_720_1280/B56Z1GCAakIIAI-/0/1774996427727?e=2147483647&v=beta&t=G5XR38hrnSJWHm2PrRWnuyu36ea4oCI_wh0FnA4_7xw",
+    "excerpt": "By Jordan Salvador | Advisor AI Solutions Ask any general contractor what slows their projects down, and you will hear the same answers every time. The city.",
+    "keyTopics": [
+      "AI Strategy",
+      "AEC Growth",
+      "Construction Innovation"
+    ],
+    "body": []
+  },
+  {
+    "id": 15,
+    "title": "From Experience to Operating System",
+    "slug": "from-experience-to-operating-system",
+    "category": "Business Growth",
+    "tag": "Business Growth",
+    "date": "2025",
+    "readTime": "5 min read",
+    "linkedinUrl": "https://www.linkedin.com/pulse/from-experience-operating-system-jordan-salvador-4inoe",
+    "image": "https://media.licdn.com/dms/image/v2/D4E12AQHfnCCUgfN-qw/article-cover_image-shrink_720_1280/B4EZ1phVRuJ4AI-/0/1775591848072?e=2147483647&v=beta&t=MSWjf81z1AyORPZzMxIsx_7QIwWZaAB45Vji2NRpzqE",
+    "excerpt": "What One 30-Year Home Services Business Reveals About Stress, Margin Pressure, and the Future of Efficient Growth At 9:17 PM, the phone lights up. A seasoned home technology business owner is reviewin",
+    "keyTopics": [
+      "AI Strategy",
+      "AEC Growth",
+      "Construction Innovation"
+    ],
+    "body": []
+  },
+  {
+    "id": 16,
+    "title": "How One Design Firm Dominates Local Search in the Bronx and the Playbook Every AEC Firm Should Steal",
+    "slug": "how-one-design-firm-dominates-local-search-in-the-bronx-and-the-playbo",
+    "category": "Design & Architecture",
+    "tag": "Design & Architecture",
+    "date": "2025",
+    "readTime": "5 min read",
+    "linkedinUrl": "https://www.linkedin.com/pulse/how-one-design-firm-dominates-local-search-bronx-every-salvador-oqwse",
+    "image": "https://media.licdn.com/dms/image/v2/D4E12AQHkrYECtysLnw/article-cover_image-shrink_720_1280/B4EZ15Ccr5IwAI-/0/1775852181951?e=2147483647&v=beta&t=f3sd1-NxPWSW2KTT_OBDw-UGyq6cb8vfPehnTpUE27o",
+    "excerpt": "What Does It Actually Look Like When an AEC Firm Dominates Its Local Market? I sat down recently with a founder who has been running a quiet masterclass in local market domination for over 15 years. N",
+    "keyTopics": [
+      "AI Strategy",
+      "AEC Growth",
+      "Construction Innovation"
+    ],
+    "body": []
+  },
+  {
+    "id": 17,
+    "title": "He Built a Design-Build Firm to 300 Projects a Year Without a Single Dollar in Marketing. Here",
+    "slug": "he-built-a-design-build-firm-to-300-projects-a-year-without-a-single-d",
+    "category": "Construction Industry",
+    "tag": "Construction Industry",
+    "date": "2025",
+    "readTime": "5 min read",
+    "linkedinUrl": "https://www.linkedin.com/pulse/he-built-design-build-firm-300-projects-year-without-single-salvador-jnj8e",
+    "image": "https://media.licdn.com/dms/image/v2/D4E12AQGjhU2O5iYsJA/article-cover_image-shrink_720_1280/B4EZ27kGlDKcAI-/0/1776968303603?e=2147483647&v=beta&t=X5866WjaaAfOBcIba1AKWrY8VdF9UeYvamL2sUWP1dI",
+    "excerpt": "The average residential architecture firm in the United States completes fewer than 10 single-family projects per year. Let that sink in.",
+    "keyTopics": [
+      "AI Strategy",
+      "AEC Growth",
+      "Construction Innovation"
+    ],
+    "body": []
+  },
+  {
+    "id": 18,
+    "title": "Construction's Skilled Labor Shortage: What Developers Need to Know",
+    "slug": "constructions-skilled-labor-shortage-what-developers-need-to-know",
+    "category": "Construction Industry",
+    "tag": "Construction Industry",
+    "date": "2025",
+    "readTime": "5 min read",
+    "linkedinUrl": "https://www.linkedin.com/pulse/constructions-skilled-labor-shortage-what-developers-need-salvador-dktce",
+    "image": "https://media.licdn.com/dms/image/v2/D4E12AQGetNDT4vnZUA/article-cover_image-shrink_720_1280/B4EZ3Z5yo1HcAI-/0/1777477306563?e=2147483647&v=beta&t=8mokM9Tab3X6jyQHRpbMCx5CMb4n93UPSXoUb3YLkeA",
+    "excerpt": "The construction industry needs 349,000 net new workers this year. By 2027, that number climbs to 456,000.",
+    "keyTopics": [
+      "AI Strategy",
+      "AEC Growth",
+      "Construction Innovation"
+    ],
+    "body": []
+  },
+  {
+    "id": 19,
+    "title": "Net Zero Home Design: The Economic Case That Changes Everything",
+    "slug": "net-zero-home-design-the-economic-case-that-changes-everything",
+    "category": "Sustainability",
+    "tag": "Sustainability",
+    "date": "2025",
+    "readTime": "5 min read",
+    "linkedinUrl": "https://www.linkedin.com/pulse/net-zero-home-design-economic-case-changes-everything-salvador-pvwae",
+    "image": "https://media.licdn.com/dms/image/v2/D4E12AQGYbc18vkwgug/article-cover_image-shrink_720_1280/B4EZ4tOfudKgAQ-/0/1778875239144?e=2147483647&v=beta&t=Oe6xfop3dLKNHzNWRMALWjIubMNUU_BS1GQRdRlNY9M",
+    "excerpt": "Buildings account for 34% of global CO2 emissions. The construction and operation of the built environment generates more carbon than any other single sector.",
+    "keyTopics": [
+      "AI Strategy",
+      "AEC Growth",
+      "Construction Innovation"
+    ],
+    "body": []
+  },
+  {
+    "id": 20,
+    "title": "Disaster-Resilient Housing: The Case for Quonset Hut Homes",
+    "slug": "disaster-resilient-housing-the-case-for-quonset-hut-homes",
+    "category": "Housing Innovation",
+    "tag": "Housing Innovation",
+    "date": "2025",
+    "readTime": "5 min read",
+    "linkedinUrl": "https://www.linkedin.com/pulse/disaster-resilient-housing-case-quonset-hut-homes-jordan-salvador-7gkse",
+    "image": "https://media.licdn.com/dms/image/v2/D4E12AQHkW56vcz3xlQ/article-cover_image-shrink_720_1280/B4EZ4tXgooKkAQ-/0/1778877598535?e=2147483647&v=beta&t=eATvMi4js1sSx4-soraoG_VF6PVpBjcT6Kt_08HJpUQ",
+    "excerpt": "Disaster-resilient housing has been a mainstream conversation since Hurricane Katrina. Two decades, multiple catastrophic storm seasons, and a 2024 hurricane season that produced $182.",
+    "keyTopics": [
+      "AI Strategy",
+      "AEC Growth",
+      "Construction Innovation"
+    ],
+    "body": []
+  }
+]

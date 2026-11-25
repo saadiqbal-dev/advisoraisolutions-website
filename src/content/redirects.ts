@@ -1,0 +1,65 @@
+/** Old live URLs that were renamed in the published episode data. */
+export const REDIRECTS: Record<string, string> = {
+  "/insights": "/faq",
+  "/ai-readiness-assessment": "/assessment",
+  "/podcast/1-billion-ai-buildings-are-coming-but-theres-one-problem":
+    "/podcast/1-billion-ai-buildings-are-coming-but-theres-one-big-problem",
+  "/podcast/ai-for-manufacturing-growth-from-real-time-data-to-smarter-decisions":
+    "/podcast/ai-for-manufacturing-growth-from-real-time-data-to-scalable-factory-performance",
+  "/podcast/architecture-isnt-enough-anymore-heres-what-actually-gets-you-hired":
+    "/podcast/architecture-isnt-enough-anymore-heres-what-actually-wins-projects",
+  "/podcast/beyond-the-codes-how-to-simplify-regulations-and-turn-compliance-into-a-competitive-advantage":
+    "/podcast/beyond-the-codes-how-to-simplify-regulations-and-turn-compliance-into-an-advantage",
+  "/podcast/biophilic-architecture-explained-how-monarchi-designs-for-human-connection":
+    "/podcast/biophilic-architecture-explained-how-monarchi-designs-healthier-human-centered-spaces",
+  "/podcast/building-the-future-modular-construction-smart-cities-and-sustainable-living":
+    "/podcast/building-the-future-modular-construction-smart-cities-and-green-innovation",
+  "/podcast/building-the-future-with-hempcrete-scott-black-on-non-toxic-construction":
+    "/podcast/building-the-future-with-hempcrete-scott-black-on-non-toxic-construction-and-dome-gaia-solutions",
+  "/podcast/can-you-build-a-successful-business-without-sacrificing-everything":
+    "/podcast/can-you-build-a-successful-business-without-sacrificing-your-family",
+  "/podcast/concrete-isnt-always-the-best-option-how-rmp-is-changing-that":
+    "/podcast/concrete-isnt-always-the-best-option-how-rmp-is-winning-infrastructure-projects-anyway",
+  "/podcast/design-leadership-isnt-about-aesthetics-its-about-accountability":
+    "/podcast/design-leadership-isnt-about-aesthetics-its-about-sustainability-and-accountability",
+  "/podcast/esg-certifications-exposed-how-to-streamline-compliance-and-win-more-work":
+    "/podcast/esg-certifications-exposed-how-to-streamline-compliance-win-investors-and-scale-faster",
+  "/podcast/from-chaos-to-clarity-how-ai-is-reinventing-operations-for-aec-firms":
+    "/podcast/from-chaos-to-clarity-how-ai-is-reinventing-operations",
+  "/podcast/future-proofing-design-how-ofa-group-blends-ai-and-architecture":
+    "/podcast/future-proofing-design-how-ofa-group-blends-ai-and-sustainability",
+  "/podcast/high-performance-homes-dont-fail-in-construction-they-fail-in-specs":
+    "/podcast/why-high-performance-homes-fail-at-construction",
+  "/podcast/how-emotive-architecture-is-redefining-design-in-denver":
+    "/podcast/how-emotive-architecture-is-redefining-design-in-dc",
+  "/podcast/how-essayons-engineers-scales-surveying-and-engineering-with-ai":
+    "/podcast/how-essayons-engineers-scales-surveying-engineering-boundary-surveys-land-development-and-growth",
+  "/podcast/how-he-scaled-a-design-build-firm-to-300-projects-a-year":
+    "/podcast/how-he-scaled-a-design-build-firm-to-300-projects-per-year",
+  "/podcast/how-kai-pono-solutions-is-reinventing-stormwater-filtration":
+    "/podcast/how-kai-pono-solutions-is-reinventing-stormwater-filtration-to-protect-our-oceans",
+  "/podcast/how-to-cut-50-off-architecture-permitting-time":
+    "/podcast/how-to-cut-50-off-architecture-permitting-time-digital-construction-and-ai",
+  "/podcast/how-verdant-structural-engineering-builds-greener-smarter-structures":
+    "/podcast/how-verdant-structural-engineering-builds-greener-smarter-buildings",
+  "/podcast/most-energy-efficient-homes-miss-the-one-thing-that-matters":
+    "/podcast/most-energy-efficient-homes-miss-the-one-thing-that-actually-matters",
+  "/podcast/smart-cities-green-tech-and-the-fight-for-water":
+    "/podcast/smart-cities-green-tech-the-fight-for-water",
+  "/podcast/the-45m-revolution-in-modular-construction-how-hopewell360-is-changing-the-game":
+    "/podcast/the-45m-revolution-in-modular-construction-how-hopewell360-is-building-smarter-greener-homes",
+  "/podcast/the-700000-lodging-problem-most-construction-companies-ignore":
+    "/podcast/rethinking-workforce-lodging-in-construction",
+  "/podcast/the-food-system-is-fragile-rob-built-a-property-that-feeds-itself":
+    "/podcast/the-food-system-is-fragile-rob-built-a-property-that-isnt",
+  "/podcast/this-block-could-redefine-housing-glohabes-daniel-correa":
+    "/podcast/this-block-could-redefine-housing-glohabs-daniel-correa-on-sustainable-construction",
+  "/podcast/why-client-education-is-the-secret-to-profitable-long-term-projects":
+    "/podcast/why-client-education-is-the-secret-to-profitable-sustainable-architecture",
+  "/podcast/why-sports-facilities-are-bleeding-energy-costs-and-how-to-fix-it":
+    "/podcast/why-sports-facilities-are-bleeding-energy-costs-and-how-smart-owners-fix-it",
+  "/podcast/why-steel-is-replacing-wood-in-construction":
+    "/podcast/why-steel-is-replacing-wood-in-construction-intellisteels-breakthrough-explained",
+  "/podcast/wildfire-resilient-homes-passive-house-prefab-and-the-future-of-fire-safe-building":
+    "/podcast/wildfire-resilient-homes-passive-house-prefab-tech-driving-the-future-of-sustainable-building",
+};

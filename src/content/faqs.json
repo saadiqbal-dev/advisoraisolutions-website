@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "question": "What is AI Visibility and why does it matter for AEC firms?",
+    "answer": "AI Visibility is how prominently your firm appears when prospects ask AI tools like ChatGPT, Perplexity, or Google AI Overviews for recommendations. When a developer asks 'who are the best structural engineers in Denver?', your firm either appears or it doesn't. Traditional SEO optimized for clicks; AI Visibility optimizes for citations. AEC firms that invest in this now are building a moat that will compound for years.",
+    "category": "AI Visibility"
+  },
+  {
+    "id": 2,
+    "question": "How is AEO different from SEO?",
+    "answer": "SEO (Search Engine Optimization) focuses on ranking in Google's blue-link results. AEO (Answer Engine Optimization) focuses on being the source that AI tools cite when answering questions. AEO requires structured schema markup, authoritative content organized around specific questions, and a strong entity presence (consistent NAP, LinkedIn, YouTube, and social signals). Both matter, but AEO is where the next decade of search is heading.",
+    "category": "AI Visibility"
+  },
+  {
+    "id": 3,
+    "question": "What is GEO and how does it apply to construction firms?",
+    "answer": "GEO (Generative Engine Optimization) is the practice of structuring your web presence so that large language models (LLMs) like GPT-4 and Claude include your firm in generated answers. For AEC firms, this means publishing detailed, expert-level content about your specialty, using proper JSON-LD schema on every page, maintaining consistent brand signals across platforms, and earning citations from authoritative industry sources.",
+    "category": "AI Visibility"
+  },
+  {
+    "id": 4,
+    "question": "Why do AEC firms struggle with lead generation?",
+    "answer": "Most AEC firms are built on referrals and repeat clients, which is great until growth stalls. The core problem is that there's no system: no outbound strategy, no CRM, no content engine, and no automation. When a referral dries up, there's nothing to fall back on. The firms winning today have built a parallel system that generates qualified conversations independent of who they already know.",
+    "category": "Lead Generation"
+  },
+  {
+    "id": 5,
+    "question": "What does an AI Growth Engine actually include?",
+    "answer": "An AI Growth Engine for AEC firms has four pillars: (1) AI Lead Generation, including prospect research, signal-based outreach, cold email, and LinkedIn campaigns; (2) Authority Building, including podcast appearances, LinkedIn thought leadership, and short-form content; (3) AI SDR & Automation, including AI chat agents, automated follow-up, and meeting booking; (4) CRM & Pipeline, including GoHighLevel setup, lead nurturing workflows, and sales dashboards. Together, these create a system that generates opportunities without requiring constant manual effort.",
+    "category": "Lead Generation"
+  },
+  {
+    "id": 6,
+    "question": "How does the podcast method work as a sales strategy?",
+    "answer": "The podcast method flips the traditional cold outreach model. Instead of pitching a prospect, you invite them to be featured as an expert on your podcast. This creates immediate goodwill, positions them as an authority, and gives you 30–60 minutes of genuine conversation. After the episode, a natural follow-up conversation leads to a discovery call, where you present a tailored AI growth plan. The close rate from podcast-sourced leads is dramatically higher than cold outreach because trust is already established.",
+    "category": "Strategy"
+  },
+  {
+    "id": 7,
+    "question": "What is the difference between the Podcast Method and the Interview Method?",
+    "answer": "The Podcast Method invites prospects to be featured as guests on the AAIS Podcast. It is relationship-first and positions both parties as peers. The Interview Method is a research-driven framework where AAIS conducts an 'industry study' or 'white paper interview,' positioning Jordan as a researcher gathering expert insight. Both create trust, but the Interview Method works better for prospects who are skeptical of being 'sold to' and respond better to being treated as a subject matter expert contributing to industry knowledge.",
+    "category": "Strategy"
+  },
+  {
+    "id": 8,
+    "question": "How long does it take to see results from an AI growth system?",
+    "answer": "Most clients see initial activity (outreach responses, booked calls) within the first 30 days. A consistent pipeline of qualified conversations typically develops within 60–90 days as the system warms up and authority content begins to gain traction. AI visibility improvements (showing up in AI search results) typically take 90–180 days as content gets indexed and cited. The system compounds over time. The longer it runs, the more efficient it becomes.",
+    "category": "Strategy"
+  },
+  {
+    "id": 9,
+    "question": "What makes Advisor AI Solutions different from a traditional marketing agency?",
+    "answer": "Three things: industry focus, operator mindset, and outcome orientation. We work exclusively with AEC and green building firms, so we speak your language and understand your sales cycle. Jordan comes from 10 years in power engineering and 10 years as a financial advisor, so the thinking is systems-first, not campaign-first. And we measure success by qualified conversations and closed contracts, not impressions and clicks.",
+    "category": "About AAIS"
+  },
+  {
+    "id": 10,
+    "question": "What is the AI Readiness Assessment?",
+    "answer": "The AI Readiness Assessment is the entry-point engagement with Advisor AI Solutions. It's a structured audit of your current marketing systems, lead sources, CRM usage, online visibility, and growth bottlenecks. The output is a tailored AI Growth Roadmap: a specific, prioritized plan showing exactly where AI can generate the highest ROI for your firm. It's the first step before any implementation work begins.",
+    "category": "About AAIS"
+  },
+  {
+    "id": 11,
+    "question": "How does AI automation reduce manual work for AEC firms?",
+    "answer": "The biggest time sinks in AEC business development are follow-up, lead qualification, and scheduling. AI automation handles all three: an AI SDR agent responds to inbound leads 24/7, qualifies them based on your ICP, and books meetings directly into your calendar. Email and SMS nurture sequences keep warm leads engaged automatically. CRM pipelines track every opportunity so nothing falls through the cracks. The result is a business development function that runs without requiring a dedicated headcount.",
+    "category": "Automation"
+  },
+  {
+    "id": 12,
+    "question": "What is signal-based outreach and why is it more effective?",
+    "answer": "Signal-based outreach targets prospects at the exact moment they're most likely to buy. Signals include: a firm posting a job for a business development role (they're growing and need systems), winning a major project award (they have budget and momentum), announcing a new office (expansion mode), or publishing content about a pain point you solve. By reaching out in response to a specific signal rather than cold, you dramatically increase response rates and relevance.",
+    "category": "Lead Generation"
+  }
+]
